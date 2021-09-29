@@ -1,0 +1,27 @@
+*{
+    margin:0;
+    padding: 0;
+}
+li{
+    font-size: 36px;
+    cursor: pointer;
+    list-style: none;
+    padding: 10px;
+}
+li:nth-child(odd){
+    background-color: lightgrey;
+}
+li:nth-child(even){
+    background-color: #eee;
+}
+div{
+    margin: 20px ;
+}
+h2,h1{
+    padding: 10px;
+    font-size: 40px;
+    font-family:Arial, Helvetica, sans-serif;
+}
+header{
+    text-align: center;
+}
